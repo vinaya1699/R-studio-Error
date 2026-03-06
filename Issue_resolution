@@ -1,0 +1,28 @@
+***If you get following error : ***
+
+
+
+***First check the Ubuntu version :***
+lsb_release -a
+
+I had received error as Ubuntu 20.04.6 had some library compatibility issues .
+
+So I have used rstudio-2024.12.1-563-amd64.deb for Rstudio installation .
+
+which rstudio
+
+sudo apt autoremove
+
+sudo apt purge rstudio
+
+sudo dpkg -i rstudio-2024.12.1-563-amd64.deb
+
+sudo apt -f install
+
+ldd --version
+
+ls /usr/bin/rstudio
+
+rstudio
+
+This should resolve issues . 
