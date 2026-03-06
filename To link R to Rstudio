@@ -1,0 +1,8 @@
+ which R
+
+/home/ashish/miniforge3/bin/R
+
+RSTUDIO_WHICH_R=/home/ashish/miniforge3/bin/R
+
+source ~/.profile
+
